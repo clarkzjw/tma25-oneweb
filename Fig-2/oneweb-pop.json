@@ -1,0 +1,218 @@
+[
+    {
+        "city": "Ashburn",
+        "country": "US",
+        "name": "Equinix DC1-DC15, DC21 - Ashburn",
+        "lat": 39.016363,
+        "lon": -77.459023,
+        "type": "pop"
+    },
+    {
+        "city": "Los Angeles",
+        "country": "US",
+        "name": "Equinix LA1 - Los Angeles",
+        "lat": 34.047501,
+        "lon": -118.2573,
+        "type": "pop"
+    },
+    {
+        "city": "Miami",
+        "country": "US",
+        "name": "Equinix MI1 - Miami, NOTA",
+        "lat": 25.782648,
+        "lon": -80.193157,
+        "type": "pop"
+    },
+    {
+        "city": "London",
+        "country": "GB",
+        "name": "Equinix LD8 - London, Docklands",
+        "lat": 51.498842,
+        "lon": -0.014327,
+        "type": "pop"
+    },
+    {
+        "city": "Amsterdam",
+        "country": "NL",
+        "name": "Digital Realty Amsterdam AMS17",
+        "lat": 52.356353,
+        "lon": 4.951609,
+        "type": "pop"
+    },
+    {
+        "city": "Seattle",
+        "country": "US",
+        "name": "Equinix SE2/SE3 - Seattle",
+        "lat": 47.614358,
+        "lon": -122.338864,
+        "type": "pop"
+    },
+    {
+        "city": "Sydney",
+        "country": "AU",
+        "name": "Equinix SY1/SY2 - Sydney",
+        "lat": -33.921868,
+        "lon": 151.188025,
+        "type": "pop"
+    },
+    {
+        "city": "Barueri",
+        "country": "BR",
+        "name": "Equinix SP4 - S\u00e3o Paulo",
+        "lat": -23.497589,
+        "lon": -46.814577,
+        "type": "pop"
+    },
+    {
+        "city": "Singapore",
+        "country": "SG",
+        "name": "Equinix SG1 - Singapore",
+        "lat": 1.295229,
+        "lon": 103.789842,
+        "type": "pop"
+    },
+    {
+        "city": "Toronto",
+        "country": "CA",
+        "name": "Cologix TOR1",
+        "lat": 43.644632,
+        "lon": -79.384228,
+        "type": "pop"
+    },
+    {
+        "city": "Johannesburg",
+        "country": "ZA",
+        "name": "Teraco Johannesburg Campus, South Africa",
+        "lat": -26.137957,
+        "lon": 28.197517,
+        "type": "pop"
+    },
+    {
+        "city": "Dubai",
+        "country": "AE",
+        "name": "Equinix DX1 - Dubai",
+        "lat": 25.02618,
+        "lon": 55.18695,
+        "type": "pop"
+    },
+    {
+        "city": "El Marques",
+        "country": "MX",
+        "name": "KIO Quer\u00e9taro 1 (QRO1)",
+        "lat": 20.567915,
+        "lon": -100.254141,
+        "type": "pop"
+    },
+    {
+        "city": "Chennai",
+        "country": "IN",
+        "name": "Nxtra Data Chennai DC 1",
+        "lat": 12.84513,
+        "lon": 80.218906,
+        "type": "pop"
+    },
+    {
+        "city": "Mumbai",
+        "country": "IN",
+        "name": "Nxtra Data Mumbai DC 2",
+        "lat": 19.113735,
+        "lon": 72.893657,
+        "type": "pop"
+    },
+    {
+        "city": "Honolulu",
+        "country": "US",
+        "name": "DRFortress HNL",
+        "lat": 21.335678,
+        "lon": -157.917855,
+        "type": "pop"
+    },
+    {
+        "city": "Calgary",
+        "country": "CA",
+        "name": "Equinix CL3 - Calgary (formerly Q9 Calgary Three)",
+        "lat": 50.976971,
+        "lon": -113.956677,
+        "type": "pop"
+    },
+    {
+        "city": "Accra",
+        "country": "GH",
+        "name": "PAIX Accra",
+        "lat": 5.572623,
+        "lon": -0.202902,
+        "type": "pop"
+    },
+    {
+        "city": "Istanbul",
+        "country": "TR",
+        "name": "Equinix IL2 - Istanbul",
+        "lat": 40.993767,
+        "lon": 29.175849,
+        "type": "pop"
+    },
+    {
+        "city": "Miritini",
+        "country": "KE",
+        "name": "icolo.io Mombasa One (MBA1)",
+        "lat": -4.007737,
+        "lon": 39.590389,
+        "type": "pop"
+    },
+    {
+        "city": "Lagos",
+        "country": "NG",
+        "name": "MainOne MDXi Lagos",
+        "lat": 6.449602,
+        "lon": 3.588328,
+        "type": "pop"
+    },
+    {
+        "city": "Fortaleza",
+        "country": "BR",
+        "name": "AngoNAP Fortaleza",
+        "lat": -3.734736,
+        "lon": -38.462636,
+        "type": "pop"
+    },
+    {
+        "city": "Jeddah",
+        "country": "SA",
+        "name": "MENA Gateway (MG1, MG2)",
+        "lat": 21.465551,
+        "lon": 39.20091,
+        "type": "pop"
+    },
+    {
+        "city": "Tokyo",
+        "country": "JP",
+        "name": "Equinix TY11 - Tokyo",
+        "lat": 35.639737,
+        "lon": 139.792362,
+        "type": "pop"
+    },
+    {
+        "city": "Santiago",
+        "country": "CL",
+        "name": "Ascenty SCL2 - Santiago",
+        "lat": -33.337316,
+        "lon": -70.704955,
+        "type": "pop"
+    },
+    {
+        "city": "Shenton Park",
+        "country": "AU",
+        "name": "Equinix PE2/PE3 - Perth",
+        "lat": -31.955087,
+        "lon": 115.796417,
+        "type": "pop"
+    },
+    {
+        "city": "Depok",
+        "country": "ID",
+        "name": "Area31 Data Center",
+        "lat": -6.441178,
+        "lon": 106.877179,
+        "type": "pop"
+    }
+]
