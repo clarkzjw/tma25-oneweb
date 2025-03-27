@@ -1,22 +1,26 @@
-from matplotlib import pyplot as plt
+# flake8: noqa: E501
+
+import sys
 from datetime import timedelta
+
+from matplotlib import pyplot as plt
 from matplotlib import dates as mdates
 
+sys.path.append("../common/")
 from ping import load_ping
 from aim import process_aim_file
 
-ara_ts, ara_ping = load_ping("./ping-oneweb-gw-250306-120000.txt")
-aim = process_aim_file("./AIM_355866000274220_2025_03_06_19_54_54.csv")
+ts, rtt = load_ping("../data/ping-oneweb-gw-250306-120000.txt")
+aim = process_aim_file("../data/AIM_355866000274220_2025_03_06_19_54_54.csv")
 
-start = ara_ts[0] + timedelta(seconds=447)
-
+start = ts[0] + timedelta(seconds=447)
 end = start + timedelta(seconds=549)
 
 figsize = (20, 6)
 
 fig = plt.figure(figsize=figsize)
 
-fontsize = 15
+fontsize = 16
 plt.rcParams["pdf.fonttype"] = 42
 plt.rcParams["ps.fonttype"] = 42
 plt.rcParams.update({"font.size": fontsize})
@@ -29,7 +33,7 @@ color2 = "tab:red"
 
 ax1 = fig.add_subplot(111)
 ax1.set_ylabel("sin", color=color1)
-ax1.plot(ara_ts, ara_ping, label="RTT", color=color1)
+ax1.plot(ts, rtt, label="RTT", color=color1)
 
 ax1.set_ylim(0, 700)
 ax1.set_xlabel("Time")
@@ -61,4 +65,5 @@ ax2.plot([], [], color="black", linestyle="--", label="Inter-satellite handover 
 ax1.set_xlim(start, end)
 plt.legend(loc="upper left")
 plt.tight_layout()
+plt.savefig("oneweb.eps")
 plt.savefig("oneweb.png")
