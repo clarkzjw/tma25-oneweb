@@ -10,11 +10,7 @@ from dataclasses import dataclass
 from typing import Any
 
 
-UT_ID = ""
-FIXED_SIMULATION_DURATION = 0
-RTT_DOWNSAMPLE_RATE = 1
 SINR_DOWNSAMPLE_RATE = 1
-LOAD_PREPROCESSED = True
 
 
 class Error(BaseException):
