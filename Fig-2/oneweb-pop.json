@@ -214,5 +214,21 @@
         "lat": -6.441178,
         "lon": 106.877179,
         "type": "pop"
+    },
+    {
+        "city": "Muscat",
+        "country": "OM",
+        "name": "Equinix MC1 - Muscat",
+        "lat": 23.72686,
+        "lon": 57.79442,
+        "type": "pop"
+    },
+    {
+        "city": "Luanda",
+        "country": "AO",
+        "name": "AngoNAP Luanda",
+        "lat": -8.91488,
+        "lon": 13.18134,
+        "type": "pop"
     }
 ]

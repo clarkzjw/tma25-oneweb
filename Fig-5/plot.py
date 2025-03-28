@@ -3,6 +3,7 @@
 import sys
 
 import pandas as pd
+import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import datetime
@@ -21,7 +22,7 @@ plt.rcParams.update({"ytick.labelsize": fontsize})
 
 
 def plot_cdf(ts, rtt):
-    start = ts[0]
+    start = datetime.datetime(2025, 1, 12, 0, 0).replace(tzinfo=datetime.timezone.utc)
     end = start + datetime.timedelta(hours=24)
 
     series = pd.Series(rtt, index=ts)
