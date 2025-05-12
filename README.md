@@ -1,6 +1,6 @@
 # Measuring the OneWeb Satellite Network
 
-This repository contains the code and dataset of the paper **Measuring the OneWeb Satellite Network** submitted to the *IFIP 2025 Network Traffic Measurement and Analysis Conference (TMA'25)*.
+This repository contains the code and dataset of the paper **Measuring the OneWeb Satellite Network** appeared in the *IFIP 2025 Network Traffic Measurement and Analysis Conference (TMA'25)*.
 
 ## Prerequisites
 
@@ -18,11 +18,11 @@ Tested on:
 In this study, we anonymized the "outside-in" measurements by removing the IP addresses and GPS coordinates that could otherwise be used to associate latency measurements with individual OneWeb user terminals (UTs).
 Thus, we refrain from releasing the raw dataset for "outside-in" measurements.
 
-To obtain the pre-processed annomalized dataset, please download the dataset from [Zenodo]().
+To obtain the pre-processed annomalized dataset, please download the dataset from [Zenodo]() (To be uploaded).
 
 ## Generate Results
 
-We use [Poetry](https://github.com/python-poetry/poetry) to manage the Python dependencies. Please follow the installation guide on the Poetry project to install it before generating the results.
+We use [Poetry](https://github.com/python-poetry/poetry) to manage Python dependencies. Please follow the installation guide on the Poetry project to install it before generating the results.
 
 A normal installation process on Debian-based Linux distributions is as follows:
 
