@@ -14,6 +14,9 @@ This repository contains the code and dataset of the paper **Measuring the OneWe
 
 OneWeb, the second largest low-Earth-orbit (LEO) satellite constellation, predominantly serves enterprise and government markets, presenting challenges for researchers trying to assess its network performance in practical scenarios. Consequently, the research community lacks a comprehensive understanding of the OneWeb system beyond the constellation parameters detailed in its regulatory filings and constrained simulation-based analysis. In this paper, we conduct a comprehensive network measurement study of the OneWeb satellite network, using both "inside-out" measurements for controlled user terminals (UTs) and "outside-in" measurements targeting publicly accessible UTs on the Internet. We present real-world measurements of the antenna signal-to-interference-and-noise-ratio (SINR), network latency, and throughput performance of different transport layer protocols and congestion control algorithms. Additionally, we utilize UT antenna tracking logs of connected satellites for cross-layer analysis. Our findings indicate that, while OneWeb generally fulfills its throughput service-level agreement (SLA) for enterprise and government customers, its latency performance is profoundly impacted by its constellation design. While latency remains relatively stable with minimal fluctuations during most inter-beam and inter-satellite handovers, notable latency variations occur during satellite network portal (SNP) handover events in certain geographical areas. This issue is partly due to the absence of inter-satellite links (ISLs), which presents a significant obstacle to OneWeb’s pursuit of seamless global coverage and robust network resilience.
 
+![](./Fig-3/oneweb.png)
+![](./Fig-2/oneweb-snp-pop.png)
+
 ## 💾 Dataset
 
 ### Ethical Considerations
