@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/TMA'25-Paper-blue)
 
-[Author version PDF](https://pan.uvic.ca/~clarkzjw/tma25.pdf)
+[Author version PDF](https://pan.uvic.ca/~clarkzjw/static/tma25.pdf)
 
 **Note**: This repository is currently working in progress. The complete dataset will be uploaded to Zenodo very soon.
+
+Please also checkout our other work on LEO satellite networks: https://oac.uvic.ca/leonet.
 
 # Measuring the OneWeb Satellite Network
 
