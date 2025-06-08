@@ -65,5 +65,4 @@ ax2.plot([], [], color="black", linestyle="--", label="Inter-satellite handover 
 ax1.set_xlim(start, end)
 plt.legend(loc="upper left")
 plt.tight_layout()
-plt.savefig("oneweb.eps")
-plt.savefig("oneweb.png")
+plt.savefig("fig3.png")

@@ -35,8 +35,7 @@ def plot_cdf(ts, rtt):
     ax.set_ylabel("CDF")
     ax.set_xlim(0, 300)
     plt.tight_layout()
-    plt.savefig("iowa_rtt_cdf.eps")
-    plt.savefig("iowa_rtt_cdf.png")
+    plt.savefig("5a.png")
 
 
 def plot_heatmap(ts, rtt):
@@ -64,8 +63,7 @@ def plot_heatmap(ts, rtt):
     plt.xlabel("Minute")
     plt.ylabel("Hour of Day")
     plt.tight_layout()
-    plt.savefig("iowa_heatmap.eps")
-    plt.savefig("iowa_heatmap.png")
+    plt.savefig("5b.png")
 
 
 if __name__ == "__main__":
